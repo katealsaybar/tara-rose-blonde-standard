@@ -21,6 +21,9 @@ Thumbs.db
 # are and are not signed off on colour. Lives beside the code, never ships.
 docs/BUILD-PROMPT.md
 
+# The blonde extraction is internal. It never ships, wherever a copy lands.
+TARA_BLONDE_RAW.md
+
 # Stylist capability documents. Never in a public repo, wherever they land.
 *stylist*capabilit*
 *sign-off*

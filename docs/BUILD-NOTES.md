@@ -1,5 +1,140 @@
 # The Blonde Standard, build notes
 
+## Pass 2, 27 Aug 2026: rebuilt from the extraction. Selection, not creation
+
+The second brief arrived with `TARA_BLONDE_RAW.md` (the 65,000-word extraction,
+internal, gitignored here) as the primary source, above Emma's brief. The page
+was reselected line by line against it. Still the standalone only: repo name,
+slug and the page-tree copy remain unconfirmed by Kate, so nothing is pushed
+and the port stays open.
+
+### What changed on the page
+
+- **Hero.** H1 is now "Protect the blonde investment." (marked "Hero line (use
+  everywhere)" in three playbooks). "We don't just create blonde. We set the
+  Blonde Standard." dropped to the support line, and the high-maintenance line
+  keeps its size as the hook. One CTA, the Confidence Mapping.
+- **The weeks ship.** The Service SOPs are canon: protect visit at week 6 to 8
+  with 7 the default (pull to 6 for high impact, push to 8 for lived-in and
+  stable), top-up at week 12. The pass-1 token slots are gone. The web pages
+  that say 4 to 6 / 8 to 12 are drift and were not copied.
+- **The three visits section** opens on Lesson 15 verbatim as its heading:
+  "Visit 1 creates the result. Visit 2 protects it. Visit 3 keeps it on track."
+  Third touchpoint is named "Keep it on track" per the brief.
+- **The Promise wording swapped.** Pass 1 carried Campaign 2's ad copy; the
+  locked sentence ("never paraphrase", per the Terminology Glossary and the
+  client-facing content system) replaced it, with "Refine, never refund." as
+  the tag. The band is labelled "The Confidence Promise", not 7-Day, matching
+  the retirement of the 7-Day Confidence Guarantee. The other four wordings are
+  logged open below.
+- **The consultation is named.** The CTA is Tara's own Confidence Mapping,
+  described with her C2 wording ("a free, pre-chair conversation... and what it
+  will cost, before you commit to anything"), which also now answers the
+  what-does-it-cost FAQ. The nav pill says "Book a consultation" only because
+  the full name overflowed 375 by 9px; the name carries everywhere else.
+- **Campaign tag** is `blonde-2026` (was `blonde-standard-2026`). Session ref
+  prefix stays `TBS-`; one line in `js/tracking.js` if Kate wants it changed.
+- **House rules enforced:** zero exclamation marks, zero emojis (the country
+  flags came out of the phone select), no contractions in body copy. The only
+  contractions on the page are inside verbatim locked lines: the two hero
+  support lines, the five "What's actually happening" labels, two Becauses, and
+  the identity-shift new lines. Verified by sweep.
+
+### The one place the brief and the extraction collided, and who won
+
+The brief says to name the bond protection by name because naming it is the
+proof. The extraction's Terminology Glossary says **"Do not name specific bond
+repair brands on any client-facing landing page"** and allows BlondMe, Fibre
+Clinix, Malibu C et al. "only in treatment context, not on landing pages"
+(even Olaplex is Bound-Manual-only). The brief puts the extraction first in the
+source order, so **no brand name ships on this page**. The proof job is done
+instead by two locked lines, "Bond protection is not an upgrade. It is the
+foundation." and "The three layers of protection happen before, during, and
+after your colour.", plus the locked three-moments framing ("never described as
+three products... three moments of protection"). The insurance bundle contents
+went generic for the same reason (purple pair, weekly bond repair mask, thermal
+spray, water filter, UV protectant), with each Because verbatim. **If Kate or
+Emma overrules, restoring the names is a four-line change**, flagged for
+`trs-brand-guardian`.
+
+### Where two Tara versions existed, which one shipped, and why
+
+- **Promise:** the locked never-paraphrase sentence over Campaign 1/2's "No
+  charge. No questions." variants, per the brief's conflict 7 and the glossary.
+- **Three-visit line:** Lesson 15 ("keeps it on track") over Spread 15's
+  "Visit 3 — Refine", because the brief names the section Keep on track.
+- **Timing:** SOP canon over the journey page and C2's marketing rhythms, per
+  conflict 4; the outliers are logged as drift, not carried.
+- **Five pressures:** the /your-blonde-journey Section 3 wording (heading 3 of
+  the extraction, as the brief instructs), trimmed of figures ("elevated
+  calcium and magnesium" kept, no ppm, no "hardest water in the world", the
+  Western-Europe UV comparison dropped) and of the word *porosity*, which the
+  locked direction bans as an unexplained clinical label. SPF wording follows
+  Framework 8 minus the chemical name.
+- **"It is not you" framing:** Lesson 17 verbatim as heading and anchor ("Five
+  quiet things are changing your hair every day in this climate. We cannot
+  change the climate. We can change the routine.") with the No Wonder Why line
+  trimmed of its *physics* clause per conflict 6.
+- **Purple shampoo:** the C2 paragraph verbatim (minus its "which is exactly
+  the result so many women report online" clause), anchored by Locked Sentence
+  7, "Purple shampoo helps. It does not replace."
+- **Insurance heading:** Lesson 20 verbatim, "We do not sell shampoo. Homecare
+  is insurance for your hair investment.", with the journey page's "You were
+  sold products. You were never given a plan." as the sub-line.
+- **Lane cards:** The Blonde System's own for-when and focus lines, near
+  verbatim; the Transformation where-line is Lesson 18 verbatim ("Because this
+  is high-impact, the protection is part of the plan, not an extra."). The
+  which-lane FAQ answer is Lesson 14 verbatim.
+- **Brassy FAQ:** the C2 paragraph verbatim ("the most predictable thing hair
+  does"). **Damage FAQ:** Lesson 18's healthy-blonde line plus the
+  condition-is-part-of-the-blonde causal line.
+- **In the chair:** built from the journey page's in-chair section ("She does
+  not sell. She prescribes."), Locked Sentences 4 ("Toner is not a luxury. It
+  is the finish.") and 17, and the two anchors the brief names.
+- **The one analogy is zero.** Pass 1's manicure-topcoat line was original
+  copy, not Tara's, and her approved analogies are the kettle (banned word),
+  fabric, sponge and ceramic glaze. Rather than push one in, the section runs
+  with no analogy, which the brief allows.
+- **Em dashes** inside verbatim Tara lines are rendered as commas or full
+  stops, matching how the brief itself renders her lines and the house
+  no-em-dash rule. No wording changed.
+- **Authored connective tissue, kept deliberately small:** the her-words intro
+  and H2, the lanes intro, the was-not-forgetting-to-book line (the brief's own
+  blame-release row), the gloss-only sentence, the salon FAQ, and the
+  bundle-matching sentence under the insurance cards. Everything else is
+  selected.
+
+### Verified, pass 2
+
+375 / 390 / 768 / 1280: no horizontal scroll (one fault found and fixed: the
+nav CTA overflowed 375 with the full Mapping name), no overflow, no console
+errors. JSON-LD parses, FAQPage mirrors the visible FAQ byte for byte. No dead
+anchors. Sweeps clean: banned words (including *guarantee*, *satisfaction
+guarantee*, *ritual*, *physics*, *offer*, *bleach*, *premium*), zero
+exclamation marks, zero emojis, no price token, no ppm, no em dashes, no
+contraction outside the verbatim set listed above. Tracking re-verified:
+`campaign:blonde-2026`, warm at Motor City derives
+`toner-reset`/`dubai-motorcity`/`dubai`.
+
+### Open items added or changed by pass 2
+
+- **The other four Confidence Promise wordings**, and whether the 7-Day
+  Confidence Guarantee is dead everywhere or only on some surfaces.
+- **Founder decision 21 and the word *Signature***: banned as a tier name; the
+  Signature Blonde lane ships on the reading that a lane is not a tier.
+  Flagged for `trs-brand-guardian`, fallback is describing the middle lane
+  without naming it.
+- **The brand-name collision above**, one word from Kate either way.
+- **The 29 timing contradictions**: resolved for this page by SOP canon, not
+  resolved in the workspace; the live web pages still disagree with the chair.
+- Everything from pass 1 still stands: repo name and slug (Kate), the sign-off
+  table, the deposit exemption, the from-price file, blonde proof and
+  photography, the OG image file, the brand-guardian gate, and
+  /your-blonde-journey's five-branches-plus-Bahrain claim (still wrong, still
+  not copied).
+
+---
+
 ## Pass 1, 27 Aug 2026: the standalone page exists
 
 Built from Kate's build brief (27 Aug), on the junior page's conventions: the

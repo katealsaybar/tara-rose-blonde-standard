@@ -31,8 +31,14 @@ body{ overflow-x:clip; }
   line-height:1.08; letter-spacing:-.015em; margin:0 auto; max-width:20ch;
   text-wrap:balance;
 }
+.hero-s .hero-sub{
+  margin:20px auto 0; max-width:44ch;
+  font-family:var(--fb); font-size:clamp(15.5px,1.6vw,18px); font-weight:400;
+  letter-spacing:.02em; line-height:1.5; color:var(--ink-soft);
+  text-wrap:balance;
+}
 .hero-s .hero-support{
-  margin:26px auto 0; max-width:26ch;
+  margin:22px auto 0; max-width:26ch;
   font-family:var(--fd); font-style:italic; font-weight:500;
   font-size:clamp(21px,3vw,30px); line-height:1.32; color:var(--ink);
   text-wrap:balance;
@@ -161,10 +167,9 @@ body{ overflow-x:clip; }
 .door .pill{ margin-top:22px; align-self:flex-start; min-height:44px; }
 .menu-note{ max-width:62ch; margin:30px auto 0; text-align:center; font-size:15.5px; line-height:1.65; color:var(--ink-soft); }
 
-/* ------------------------------------------------------- THE RHYTHM, on black
-   Three named touchpoints, no numerals: two week-systems are live and Tara has
-   not picked, so each step carries one hidden token slot the weeks drop into
-   later, and the copy says the stylist gives her hers in the chair. */
+/* --------------------------------------------------- THE THREE VISITS, on black
+   Weeks ship this pass: the Service SOPs are canon (6 to 8, default 7, and 12),
+   and the web pages that disagree are drift, not an alternative. */
 .timeline--three{ grid-template-columns:repeat(3,1fr); }
 @media (max-width:760px){ .timeline--three{ grid-template-columns:1fr; } }
 .dark .timeline{ background:rgba(255,255,255,.16); }
@@ -201,16 +206,14 @@ body{ overflow-x:clip; }
   letter-spacing:.26em; text-transform:uppercase; color:var(--accent);
 }
 .promise-band__lead{
-  margin:0 auto; max-width:44ch;
+  margin:0 auto; max-width:48ch;
   font-family:var(--fd); font-style:italic; font-size:clamp(21px,3.2vw,28px);
-  line-height:1.36; color:#fff; text-wrap:balance;
+  line-height:1.42; color:#fff; text-wrap:balance;
 }
-.promise-band__copy{ max-width:58ch; margin:24px auto 0; }
-.promise-band__copy p{
-  margin:0 0 16px; font-family:var(--fb); font-size:16px; font-weight:400;
-  line-height:1.68; color:rgba(255,255,255,.82);
+.promise-band__tag{
+  margin:22px auto 0; font-family:var(--fb); font-size:13px; font-weight:600;
+  letter-spacing:.2em; text-transform:uppercase; color:var(--accent);
 }
-.promise-band__copy p:last-child{ margin-bottom:0; }
 
 /* ---------------------------------------------------------- THE IDENTITY SHIFT
    Three pairs, old line to new line, tight, unexplained. The closing emotional
