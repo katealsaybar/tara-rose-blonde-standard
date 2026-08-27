@@ -13,37 +13,80 @@ body{ overflow-x:clip; }
 .foot .brand__wm{ font-family:var(--fb); font-weight:400; }
 
 /* ---------------------------------------------------------------- HERO
-   Text-first and centred: no blonde photography exists with consent on file,
-   so the hero carries the argument in words rather than borrowing another
-   campaign's pictures. The support line is the emotional hook and gets real
-   size, per the brief. */
-.hero-s{ background:var(--paper); padding:clamp(72px,11vh,128px) 0 clamp(56px,8vh,96px); }
-.hero-s .wrap{ text-align:center; }
-.hero-s .campaign-label{
-  display:block; margin-bottom:18px;
-  font-family:var(--fb); font-weight:600; text-transform:uppercase;
-  font-size:clamp(14px,3.4vw,18px); letter-spacing:.24em; line-height:1.2;
-  color:var(--accent-text);
+   Split image and text, the junior page's Hero-B geometry: the split sits in
+   the same centred container as every section below it. The photography is
+   the salon's own blonde set (shared with the Bahrain pages). The support
+   line is the emotional hook and gets real size, per the brief. */
+.hero-b{ background:var(--paper); padding:0; overflow:hidden; }
+.hero-b .split{
+  display:grid; grid-template-columns:1fr 1fr; align-items:stretch;
+  gap:clamp(20px,3.4vw,48px);
+  min-height:min(78vh,720px);
+  max-width:var(--maxw); margin-inline:auto; padding-inline:var(--pad-x);
 }
-.hero-s .h-1{
+.hero-b .htext{
+  display:flex; flex-direction:column; justify-content:center;
+  padding:clamp(28px,5vw,56px) 0;
+  max-width:none;
+}
+.hero-b .h-1{
   font-family:var(--fd); font-weight:400; color:var(--ink);
-  font-size:clamp(31px,4.8vw,56px);
-  line-height:1.08; letter-spacing:-.015em; margin:0 auto; max-width:20ch;
-  text-wrap:balance;
+  font-size:clamp(30px, min(4.6vw, 5.6vh), 54px);
+  line-height:1.06; letter-spacing:-.015em; margin:0; text-wrap:balance;
 }
-.hero-s .hero-sub{
-  margin:20px auto 0; max-width:44ch;
-  font-family:var(--fb); font-size:clamp(15.5px,1.6vw,18px); font-weight:400;
+.hero-b .hero-sub{
+  margin:18px 0 0; max-width:44ch;
+  font-family:var(--fb); font-size:clamp(15.5px,1.4vw,17.5px); font-weight:400;
   letter-spacing:.02em; line-height:1.5; color:var(--ink-soft);
   text-wrap:balance;
 }
-.hero-s .hero-support{
-  margin:22px auto 0; max-width:26ch;
+.hero-b .hero-support{
+  margin:20px 0 0; max-width:26ch;
   font-family:var(--fd); font-style:italic; font-weight:500;
-  font-size:clamp(21px,3vw,30px); line-height:1.32; color:var(--ink);
+  font-size:clamp(20px,2.4vw,28px); line-height:1.34; color:var(--ink);
   text-wrap:balance;
 }
-.hero-s .cta-row{ margin-top:32px; display:flex; justify-content:center; }
+.hero-b .cta-row{ margin-top:28px; }
+.hero-b .himg{
+  background:var(--stone-soft) center/cover no-repeat;
+  min-height:340px; border-radius:var(--r-md);
+  margin:clamp(20px,3.4vh,36px) 0;
+}
+@media(max-width:833px){
+  .hero-b .split{ grid-template-columns:1fr; min-height:0; gap:0; }
+  .hero-b .himg{
+    order:-1; width:100%; min-height:0; margin:20px 0 0;
+    height:clamp(170px, 30vh, 280px); aspect-ratio:auto;
+  }
+  .hero-b .htext{ padding-top:24px; text-align:center; align-items:center; }
+  .hero-b .hero-sub, .hero-b .hero-support{ margin-inline:auto; }
+  .hero-b .cta-row{ display:flex; flex-direction:column; align-items:center; margin-top:24px; }
+}
+
+/* ------------------------------------------------------------ BAND PHOTOS
+   One wide editorial photograph per section that earns it: the platinum in
+   full sun for the environment, the fresh blonde in the chair. Landscape band
+   on desktop, taller crop on a phone so the subject stays in frame. */
+.band-photo{ margin:0 auto 40px; max-width:980px; }
+.band-photo img{
+  width:100%; height:auto; aspect-ratio:16/7; object-fit:cover;
+  display:block; border-radius:var(--r-md); background:var(--stone-soft);
+}
+@media(max-width:559px){
+  .band-photo{ margin-bottom:30px; }
+  .band-photo img{ aspect-ratio:4/3; }
+}
+
+/* Lane card photographs: portrait crops, faces above centre so the phone
+   crop keeps them in frame. */
+.lane-photo{ margin:0 0 20px; }
+.lane-photo img{
+  width:100%; height:auto; aspect-ratio:4/5; object-fit:cover;
+  display:block; border-radius:var(--r-sm); background:var(--stone-soft);
+}
+@media(max-width:559px){
+  .lane-photo img{ aspect-ratio:1/1; }
+}
 
 /* ---------------------------------------------------------- HER WORDS, in pairs
    The release-the-blame move, above everything else. Each pair is one card:

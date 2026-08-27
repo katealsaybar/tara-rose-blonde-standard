@@ -24,6 +24,12 @@ docs/BUILD-PROMPT.md
 # The blonde extraction is internal. It never ships, wherever a copy lands.
 TARA_BLONDE_RAW.md
 
+# Internal pricing. The page ships with zero price tokens and this repo is
+# public: no Phorest export, no price grid, ever.
+docs/BLONDE-PRICES-FROM-PHOREST.md
+*PRICES*
+*prices*
+
 # Stylist capability documents. Never in a public repo, wherever they land.
 *stylist*capabilit*
 *sign-off*

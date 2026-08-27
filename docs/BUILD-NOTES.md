@@ -1,5 +1,55 @@
 # The Blonde Standard, build notes
 
+## Photography, 27 Aug 2026: the page gets its pictures
+
+Kate: "i need good photos here", on the environment section. The source is the
+salon's own blonde set already shipped on the Bahrain pages
+(`tara-rose-pages-main/bahrain/assets/`), where they run as anonymous
+backgrounds with no stylist or client named. Six were brought in, resized and
+recompressed into `assets/img/` (112 to 228KB each):
+
+| Slot | File | From | What it shows |
+|---|---|---|---|
+| Hero | `hero-blonde.jpg` | `blonde-hero.jpg` | Soft dimensional blonde, client facing camera in the salon |
+| It is not you, band | `env-sun.jpg` | `blonde-band-platinum.jpg`, pre-cropped wide | Platinum bob in full sun under open blue sky: the section's argument in one frame |
+| Soft Blonde card | `lane-soft.jpg` | `blonde-balayage.jpg` | Lived-in dimensional blonde, soft grow-out |
+| Signature Blonde card | `lane-signature.jpg` | `blonde-signature.jpg` | Bright, even blonde, client smiling in the salon |
+| Transformation Blonde card | `lane-transformation.jpg` | `blonde-transformation.jpg` | High-lift platinum, profile |
+| In the chair, band | `chair-fresh.jpg` | `blonde-band-fresh.jpg`, pre-cropped wide | A stylist's hand lifting through freshly lightened blonde |
+
+The hero moved from text-only centred to the junior page's Hero-B split (text
+left, photograph right, image band above centred text on a phone), so the two
+campaign pages share one hero geometry. The two wide bands are a new
+`.band-photo` component (16/7 desktop, 4/3 phone), the lane cards a
+`.lane-photo` (4/5 desktop, square phone), faces composed above centre so the
+phone crops keep them. **The OG image now exists**: `og/blonde-standard.jpg`,
+1200x630 from the hero frame, closing that open item; the meta tag still
+points at the production URL by convention, so previews start working the day
+the folder is mounted there.
+
+Alt text names nobody and claims nothing branch-specific. The rhythm, promise,
+shift, insurance and her-words sections stay deliberately unillustrated: the
+pairs and the locked lines are the design there.
+
+**Verified:** all six files serve, no overflow at 375 or 1280, no console
+errors, sweeps still clean, JSON-LD untouched apart from nothing (FAQ
+unchanged). The preview pane would not composite (same quirk as every pass),
+so the crops were verified by geometry: cover-crop bands computed per box
+ratio and object-position against each photograph's known composition, and the
+chair band's Y moved 40% to 25% so the stylist's hand survives the 16/7 crop.
+**Worth one human scroll in a real browser.**
+
+**Flags, not blockers.** These photographs also serve the Bahrain pages: same
+pictures, different market and audience, unlike the voucher/junior collision
+the junior notes record, but worth knowing if both ever target the same list.
+And the blonde-proof open item (before/after with client permission) is NOT
+closed by this: these are editorial photographs, not proof, and no consent
+paperwork has been sighted for them beyond the precedent that they are already
+live on the Bahrain site. If Kate wants provenance chased, it is the Bahrain
+build's source list.
+
+---
+
 ## Pass 2, 27 Aug 2026: rebuilt from the extraction. Selection, not creation
 
 The second brief arrived with `TARA_BLONDE_RAW.md` (the 65,000-word extraction,
