@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~
+.vscode/
+
+# Never commit
+.env
+.env.*
+
+# Meeting recordings and transcripts. This repo is public and its Pages site
+# will be live.
+*Personal Meeting Room*
+*.vtt
+*.transcript.txt
+
+# Internal build brief: quotes a private meeting, and records which stylists
+# are and are not signed off on colour. Lives beside the code, never ships.
+docs/BUILD-PROMPT.md
+
+# Stylist capability documents. Never in a public repo, wherever they land.
+*stylist*capabilit*
+*sign-off*
+*signoff*

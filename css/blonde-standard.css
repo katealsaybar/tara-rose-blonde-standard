@@ -1,0 +1,284 @@
+/* blonde-standard.css. The Blonde Standard.
+   Page-only sheet. trs-core.css and trs-blocks.css are the shared design system
+   and are never edited; anything they set wrong for this page is overridden here.
+   Built to the same conventions as css/junior-experience.css on the junior page. */
+
+/* body overflow moves from the core sheet's hidden to clip: same viewport
+   propagation, but clip forbids the 8px programmatic horizontal scroll hidden
+   still allows. On html the same clip breaks position:sticky; it stays on body. */
+body{ overflow-x:clip; }
+
+/* The wordmark is set in Inter, not Playfair. Kate, 21 Aug 2026. */
+.trs-nav .brand__wm{ font-family:var(--fb); font-weight:400; }
+.foot .brand__wm{ font-family:var(--fb); font-weight:400; }
+
+/* ---------------------------------------------------------------- HERO
+   Text-first and centred: no blonde photography exists with consent on file,
+   so the hero carries the argument in words rather than borrowing another
+   campaign's pictures. The support line is the emotional hook and gets real
+   size, per the brief. */
+.hero-s{ background:var(--paper); padding:clamp(72px,11vh,128px) 0 clamp(56px,8vh,96px); }
+.hero-s .wrap{ text-align:center; }
+.hero-s .campaign-label{
+  display:block; margin-bottom:18px;
+  font-family:var(--fb); font-weight:600; text-transform:uppercase;
+  font-size:clamp(14px,3.4vw,18px); letter-spacing:.24em; line-height:1.2;
+  color:var(--accent-text);
+}
+.hero-s .h-1{
+  font-family:var(--fd); font-weight:400; color:var(--ink);
+  font-size:clamp(31px,4.8vw,56px);
+  line-height:1.08; letter-spacing:-.015em; margin:0 auto; max-width:20ch;
+  text-wrap:balance;
+}
+.hero-s .hero-support{
+  margin:26px auto 0; max-width:26ch;
+  font-family:var(--fd); font-style:italic; font-weight:500;
+  font-size:clamp(21px,3vw,30px); line-height:1.32; color:var(--ink);
+  text-wrap:balance;
+}
+.hero-s .cta-row{ margin-top:32px; display:flex; justify-content:center; }
+
+/* ---------------------------------------------------------- HER WORDS, in pairs
+   The release-the-blame move, above everything else. Each pair is one card:
+   her sentence on the left, what is actually happening on the right. On a phone
+   the two halves stack INSIDE the card, so the pairing survives; they never
+   collapse into two unrelated lists. */
+.pairs{ display:grid; gap:14px; max-width:920px; margin:0 auto; }
+.pair{
+  display:grid; grid-template-columns:1fr 1fr; gap:0;
+  background:var(--paper); border:1px solid var(--hair); border-radius:var(--r-md);
+  overflow:hidden;
+}
+.pair__say, .pair__fact{ padding:22px 26px; min-width:0; }
+.pair__say{ border-right:1px solid var(--hair); }
+.pair__lbl{
+  display:block; margin-bottom:10px;
+  font-family:var(--fb); font-size:11px; font-weight:600; letter-spacing:.22em;
+  text-transform:uppercase; color:var(--ink-soft);
+}
+.pair__fact .pair__lbl{ color:var(--accent-text); }
+.pair__say p{
+  margin:0; font-family:var(--fd); font-style:italic; font-weight:500;
+  font-size:clamp(17.5px,2vw,21px); line-height:1.4; color:var(--ink);
+}
+.pair__fact p{
+  margin:0; font-family:var(--fb); font-size:16px; font-weight:300;
+  line-height:1.62; color:var(--ink-soft);
+}
+.pairs-anchor{
+  margin:38px auto 0; max-width:52ch; text-align:center;
+  font-family:var(--fd); font-style:italic; font-size:clamp(19px,2.4vw,24px);
+  line-height:1.42; color:var(--ink); text-wrap:balance;
+}
+@media(max-width:679px){
+  .pair{ grid-template-columns:1fr; }
+  .pair__say{ border-right:0; border-bottom:1px solid var(--hair); }
+  .pair__say, .pair__fact{ padding:18px 20px; }
+}
+
+/* --------------------------------------------------------- THE ENVIRONMENT
+   Five quiet things, named, no numbers. The water figure is gated pending two
+   dated per-emirate sources, so the mechanism ships and the number does not. */
+.env-grid{
+  display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:44px;
+}
+.env{
+  background:var(--paper); border:1px solid var(--hair); border-radius:var(--r-md);
+  padding:22px 20px; min-width:0;
+}
+.env h3{
+  margin:0; font-family:var(--fd); font-weight:700;
+  font-size:19px; line-height:1.2; color:var(--ink);
+}
+.env p{
+  margin:10px 0 0; font-family:var(--fb); font-size:14.5px; font-weight:300;
+  line-height:1.56; color:var(--ink-soft);
+}
+@media(max-width:980px){ .env-grid{ grid-template-columns:repeat(3,1fr); } }
+@media(max-width:640px){ .env-grid{ grid-template-columns:1fr 1fr; gap:10px; } .env{ padding:18px 16px; } }
+@media(max-width:374px){ .env-grid{ grid-template-columns:1fr; } }
+
+/* -------------------------------------------------------------- PROSE BLOCK
+   Same component as the junior page: on a dark ground the weight goes to 400
+   and the body colour lifts, because this page is read on a phone outdoors. */
+.prose{ max-width:62ch; margin:0 auto; text-align:center; }
+.prose p{
+  margin:0 0 22px; font-family:var(--fb); font-size:17px; font-weight:300;
+  line-height:1.7; color:var(--ink-soft);
+}
+.prose p:last-child{ margin-bottom:0; }
+.prose .prose__anchor{
+  font-family:var(--fd); font-style:italic; font-size:22px; line-height:1.4; color:var(--ink);
+}
+.dark .prose p{ font-weight:400; color:rgba(255,255,255,.82); }
+.dark .prose .prose__anchor{ color:#fff; font-weight:400; }
+.dark .stack-anchor{ color:rgba(255,255,255,.82); font-weight:400; }
+.dark .faq .ans{ font-weight:400; }
+
+/* ------------------------------------------------------------- LANE CARDS
+   Reuses the junior page's .doors/.door card, complete without a price on
+   purpose: the deposit rule is unexempted and no from-price file exists, so the
+   cards are designed with no gap where a number would go. */
+.doors{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:18px; margin-top:36px;
+}
+.doors > *{ min-width:0; }
+.door{
+  display:flex; flex-direction:column;
+  background:var(--paper); border:1px solid var(--hair); border-radius:var(--r-md);
+  padding:26px 26px 24px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 14px 34px -24px rgba(45,46,55,.32);
+}
+.door h3{
+  font-family:var(--fd); font-weight:700;
+  font-size:clamp(20px,1.9vw,24px); line-height:1.22; color:var(--ink); margin:0;
+}
+.door p{
+  margin:14px 0 0; font-family:var(--fb); font-size:15.5px; font-weight:300;
+  line-height:1.62; color:var(--ink-soft);
+}
+.lane-focus{
+  font-family:var(--fd) !important; font-style:italic; font-weight:500 !important;
+  font-size:17.5px !important; line-height:1.45 !important; color:var(--ink) !important;
+}
+.door__inc{ list-style:none; margin:16px 0 0; padding:0; display:grid; gap:9px; }
+.door__inc li{
+  display:flex; gap:11px; align-items:flex-start;
+  font-family:var(--fb); font-size:14.5px; font-weight:300; line-height:1.5; color:var(--ink);
+}
+.door__inc li .tk{ flex:0 0 13px; width:13px; height:2px; background:var(--accent-deep); margin-top:10px; }
+.door__where{
+  margin:20px 0 0 !important; padding-top:16px; border-top:1px solid var(--hair);
+  font-size:14.5px !important; line-height:1.55 !important;
+}
+.door__where span{
+  display:block; margin-bottom:5px;
+  font-size:10.5px; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--accent-text);
+}
+.lane-cards .door__where{ margin-top:auto !important; }
+.door .pill{ margin-top:22px; align-self:flex-start; min-height:44px; }
+.menu-note{ max-width:62ch; margin:30px auto 0; text-align:center; font-size:15.5px; line-height:1.65; color:var(--ink-soft); }
+
+/* ------------------------------------------------------- THE RHYTHM, on black
+   Three named touchpoints, no numerals: two week-systems are live and Tara has
+   not picked, so each step carries one hidden token slot the weeks drop into
+   later, and the copy says the stylist gives her hers in the chair. */
+.timeline--three{ grid-template-columns:repeat(3,1fr); }
+@media (max-width:760px){ .timeline--three{ grid-template-columns:1fr; } }
+.dark .timeline{ background:rgba(255,255,255,.16); }
+.timeline--three .tstep{ padding:26px 20px; text-align:center; }
+.timeline--three .tstep b{ font-size:21px; margin-top:12px; }
+.timeline--three .tstep p{
+  margin:12px auto 0; max-width:34ch;
+  font-family:var(--fb); font-size:15px; font-weight:300; line-height:1.6; color:var(--ink-soft);
+}
+
+/* ----------------------------------------------------------- IN THE CHAIR */
+#chair .timeline .tstep{ padding:24px 16px; }
+
+/* ------------------------------------------------------------- INSURANCE
+   Three bundles, no prices, each carrying its Because verbatim: the Because is
+   what makes it not an upsell. */
+.ins-cards .because{ margin-top:auto !important; }
+.because{
+  margin:20px 0 0; padding-top:16px; border-top:1px solid var(--hair);
+  font-family:var(--fd) !important; font-style:italic; font-weight:500 !important;
+  font-size:16.5px !important; line-height:1.5 !important; color:var(--ink) !important;
+}
+.because span{
+  display:block; margin-bottom:6px;
+  font-family:var(--fb); font-style:normal; font-size:10.5px; font-weight:600;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--accent-text);
+}
+
+/* ------------------------------------------------------- THE PROMISE, on black
+   Wording lifted exactly from Campaign 2 and locked. Only the ground is ours. */
+.promise-band{ padding:64px 0; scroll-margin-top:94px; text-align:center; }
+.promise-band__lbl{
+  margin:0 0 16px; font-family:var(--fb); font-size:11.5px; font-weight:600;
+  letter-spacing:.26em; text-transform:uppercase; color:var(--accent);
+}
+.promise-band__lead{
+  margin:0 auto; max-width:44ch;
+  font-family:var(--fd); font-style:italic; font-size:clamp(21px,3.2vw,28px);
+  line-height:1.36; color:#fff; text-wrap:balance;
+}
+.promise-band__copy{ max-width:58ch; margin:24px auto 0; }
+.promise-band__copy p{
+  margin:0 0 16px; font-family:var(--fb); font-size:16px; font-weight:400;
+  line-height:1.68; color:rgba(255,255,255,.82);
+}
+.promise-band__copy p:last-child{ margin-bottom:0; }
+
+/* ---------------------------------------------------------- THE IDENTITY SHIFT
+   Three pairs, old line to new line, tight, unexplained. The closing emotional
+   beat before the form. */
+.swaps{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:18px;
+  max-width:1020px; margin:0 auto;
+}
+.swap{ min-width:0; text-align:center; padding:8px 6px; }
+.swap__old{
+  margin:0; font-family:var(--fb); font-size:14.5px; font-weight:300;
+  line-height:1.5; color:var(--ink-soft);
+}
+.swap__old::after{
+  content:"\2193"; display:block; margin:12px auto 10px;
+  font-size:16px; color:var(--accent-text);
+}
+.swap__new{
+  margin:0 auto; max-width:24ch;
+  font-family:var(--fd); font-style:italic; font-weight:500;
+  font-size:clamp(17.5px,2.1vw,21px); line-height:1.42; color:var(--ink);
+}
+@media(max-width:760px){
+  .swaps{ grid-template-columns:1fr; gap:30px; max-width:520px; }
+}
+
+/* -------------------------------------------------------- FORM, extra controls
+   trs-blocks styles .field input only. This form also uses selects and a
+   textarea. 16px is also what stops iOS zooming on focus. */
+.field select,
+.field textarea{
+  width:100%; font-family:var(--fb); font-size:16px; color:var(--ink);
+  background:var(--paper); border:1px solid var(--hair); border-radius:var(--r-sm);
+  padding:14px 16px; transition:border-color var(--dur) var(--ease);
+}
+.field input{ font-size:16px; }
+.field textarea{ resize:vertical; min-height:96px; line-height:1.6; }
+.field select:focus,
+.field textarea:focus{ outline:2px solid var(--accent-deep); outline-offset:3px; border-color:var(--accent-deep); }
+.field .help{
+  margin:8px 0 0; font-family:var(--fb); font-size:13.5px; font-weight:300;
+  letter-spacing:0; text-transform:none; color:var(--ink-soft);
+}
+.field--hidden{ display:none; }
+.pdpl__group{ align-items:center; }
+.pdpl__label{ padding:11px 0; }
+
+/* --------------------------------------------------------------- LABEL SIZE
+   Same one-step lift as the junior page: small-caps labels read as structure,
+   not fine print. These live in the shared sheets, so they are overridden here. */
+.eyebrow{ font-size:12.5px; letter-spacing:.3em; }
+.tstep .wk{ font-size:11.5px; }
+.field label{ font-size:13px; }
+.reserve .consent{ font-size:14px; }
+.trs-nav .nav-link{ font-size:12.5px; }
+.faq .ans{ font-size:18px; }
+
+/* ------------------------------------------------------------ ANCHOR OFFSETS */
+#lanes, #rhythm, #promise, #book, #faq, #her-words, #environment, #chair, #insurance, #shift{
+  scroll-margin-top:calc(var(--nav-h,75px) + 16px);
+}
+
+/* ------------------------------------------------------------------- MOBILE
+   The phone is the primary screen. Designed and checked at 375 first. */
+@media(max-width:640px){
+  .hero-s{ padding-top:56px; }
+  .doors{ margin-top:26px; }
+  .door{ padding:22px 20px 20px; }
+  .menu-note{ font-size:15px; }
+  .promise-band{ padding:52px 0; }
+}
