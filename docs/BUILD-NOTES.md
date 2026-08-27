@@ -1,5 +1,25 @@
 # The Blonde Standard, build notes
 
+## Photography fix, 27 Aug 2026: the Signature card showed a stylist
+
+Kate, on the live draft: the Signature Blonde photograph was **Holly, a
+stylist**, not a client (confirmed against the dashboard staff portraits, same
+face and jacket as `staff/holly.png`). Same class of fault the junior build
+hit twice: the woman in the picture has to be the right person. Replaced with
+`blonde-bright.jpg` from the same Bahrain set: bright, even blonde
+mid-appointment, a stylist's hand lifting the finished colour, the client's
+face turned down and unidentifiable.
+
+**Open with Kate: the three remaining faces.** The hero woman is the only
+other full face on the page, and she matches none of the sixteen female staff
+portraits conclusively, but that check was mine, from thumbnails, and Kate can
+do it in ten seconds. The Soft card (face mostly hidden) and Transformation
+card (profile, eyes closed) are barely identifiable either way. Also worth
+knowing: Holly modelling on the Bahrain pages means the Bahrain set leans on
+team members as models, so any future pull from it needs the same check.
+
+---
+
 ## Photography, 27 Aug 2026: the page gets its pictures
 
 Kate: "i need good photos here", on the environment section. The source is the
