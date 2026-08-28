@@ -1,5 +1,22 @@
 # The Blonde Standard, build notes
 
+## Photography, 28 Aug 2026: the shift section gets its picture
+
+Kate, on the live page: the shift section "looks weak, can we get photos for
+this?", overriding pass 2's deliberate no-illustration call for that section.
+Source is the same Bahrain blonde set as every other photograph on the page.
+The pick is `blonde-balayage2.jpg`, cropped 4/3 to `assets/img/shift-blonde.jpg`
+(172KB): a client's smile under freshly finished blonde, a stylist's hand
+lifting it, the salon wordmark behind. **Chosen precisely because the face is
+hidden**: only a smile shows, so it passes the Holly rule without a staff
+check, same class as the Soft and Transformation cards. The four unused
+alternatives (`blonde-highlights`, the three `blonde-tone-*`) all show full,
+identifiable faces and would each need checking against the sixteen staff
+portraits before use. Reuses the existing `.band-photo` component, no CSS
+change; `object-position:50% 25%` keeps hand and smile inside the 16/7
+desktop crop. Verified: serves, 4/3 at 375, no overflow, no console errors.
+The rhythm, promise, insurance and her-words sections stay unillustrated.
+
 ## Pass 3, 28 Aug 2026: the price layer exists, empty and switched off
 
 Built from Kate's pass 3 brief (gitignored, `docs/BUILD-PROMPT-PASS3.md`).
