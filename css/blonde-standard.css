@@ -250,21 +250,24 @@ body{ overflow-x:clip; }
    makes the row read as a bill, and the first note under the rows carries the
    plan's argument instead. overflow-wrap:anywhere on the values is what keeps
    the unreplaced {{...}} tokens from breaking 375. */
-/* Kate, 28 Aug PM: the standalone rows under the timeline retire, and each
-   lane card carries its own four figures on a small dark panel instead, so
-   the price appears exactly once, inside the card the woman already chose.
-   The panel is the page's dark ground in miniature (ink-deep, accent
-   labels, white values), the plan split off by a hairline and the same
-   size as the visits, never a receipt total. The two notes ride directly
-   under the cards on the light section, so they restyle to ink. The same
-   one switch still rules everything price-shaped. */
+/* Kate, 28 Aug PM (second pass on her call): the LANES SECTION goes dark
+   and the cream cards carry the prices, so the section reads as one dark
+   ground with three light cards floating on it, the same pattern as the
+   white timeline steps on the rhythm section next door. The price panel
+   inside each card stays cream like the card itself, one shade deeper
+   (var(--cream) on var(--paper)) behind a hairline, accent-text labels,
+   ink values, the plan split off by a hairline and the same size as the
+   visits, never a receipt total. The two notes sit under the cards on the
+   dark ground, so they run white. The same one switch still rules
+   everything price-shaped. */
 .lane-prices{ display:none; margin:30px auto 0; max-width:62ch; }
 html[data-prices="on"] .lane-prices{ display:block; }
 .door-prices{ display:none; }
 html[data-prices="on"] .door-prices{ display:grid; }
 .door-prices{
   gap:9px; margin:18px 0 0; padding:16px 18px;
-  background:var(--ink-deep); border-radius:var(--r-sm);
+  background:var(--cream); border:1px solid var(--hair);
+  border-radius:var(--r-sm);
 }
 .dp{
   display:flex; justify-content:space-between; align-items:baseline;
@@ -272,19 +275,20 @@ html[data-prices="on"] .door-prices{ display:grid; }
 }
 .dp dt{
   font-family:var(--fb); font-size:10px; font-weight:700;
-  letter-spacing:.16em; text-transform:uppercase; color:var(--accent);
+  letter-spacing:.16em; text-transform:uppercase; color:var(--accent-text);
 }
 .dp dd{
   margin:0; font-family:var(--fb); font-size:15px; font-weight:400;
-  line-height:1.4; color:#fff; white-space:nowrap;
+  line-height:1.4; color:var(--ink); white-space:nowrap;
 }
-.dp--plan{ margin-top:5px; padding-top:12px; border-top:1px solid rgba(255,255,255,.22); }
+.dp--plan{ margin-top:5px; padding-top:12px; border-top:1px solid var(--hair); }
 .lp-note{
   margin:0 auto; text-align:center;
-  font-family:var(--fb); font-size:14.5px; font-weight:300; line-height:1.62;
-  color:var(--ink-soft);
+  font-family:var(--fb); font-size:14.5px; font-weight:400; line-height:1.62;
+  color:rgba(255,255,255,.82);
 }
 .lp-note + .lp-note{ margin-top:8px; }
+.dark .menu-note{ color:rgba(255,255,255,.82); }
 
 /* ----------------------------------------------------------- IN THE CHAIR */
 #chair .timeline .tstep{ padding:24px 16px; }
