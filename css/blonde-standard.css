@@ -386,13 +386,19 @@ html[data-prices="on"] .door-prices{ display:grid; }
   display:grid; grid-template-columns:1fr 1fr; gap:26px;
   max-width:760px; margin:26px auto 0;
 }
-.proof-lane{ min-width:0; }
+.proof-lane{
+  min-width:0; padding:16px 16px 14px;
+  border:1px solid var(--hair); border-radius:var(--r-md);
+}
 .proof-lane .proof{ margin:0; gap:8px; max-width:none; }
 .proof-lane__label{
   margin:10px 0 0; text-align:center;
   font-family:var(--fb); font-size:11px; font-weight:600;
   letter-spacing:.22em; text-transform:uppercase; color:var(--accent-text);
 }
+/* The hero pair is the Transformation lane, named by Kate (28 Aug): her
+   label sits under the Before/After captions, same voice as the cards. */
+.proof-lane__label--hero{ margin:14px 0 0; font-size:12px; }
 @media(max-width:559px){
   .proof{ gap:10px; margin-top:34px; }
   .proof-lanes{ grid-template-columns:1fr; gap:28px; }

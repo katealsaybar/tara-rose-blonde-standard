@@ -34,9 +34,11 @@ composite (25.png in the tara-owned before/after folder, seam-detected,
 baked-in labels cropped away; the raw photographs were never found, so the
 halves are native 422px and 658px wide, fine at display size). Lane labels
 match the cards word for word; the minis carry no Before/After captions,
-the hero pair sets that convention. Brand-gated: SHIP, no fixes. The
-Transformation lane still has no pair, deliberately: nothing staged goes in
-its place.
+the hero pair sets that convention. Brand-gated: SHIP, no fixes. Final shape, Kate's picks: **the hero pair IS the Transformation lane**
+(Kate named the client's lane, 28 Aug), so it carries the "Transformation
+Blonde" label under its Before/After captions and all three lanes now have
+real proof. The two mini pairs sit in hairline cards (Option A of the three
+sample layouts) so they read as pairs, never as a strip of four.
 
 Other finds logged for later: Marish's before/after zip (Mar 2026, sent to
 the web team), and TEGAN and RUTH before/after videos (both staff) plus a
