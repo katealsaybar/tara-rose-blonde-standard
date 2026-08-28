@@ -77,13 +77,13 @@ body{ overflow-x:clip; }
   .band-photo img{ aspect-ratio:4/3; }
 }
 
-/* The shift band is a portrait of a face, not a landscape of hair: at 16/7
-   the crop takes her forehead and chin, so this one band runs 3/2 on desktop
-   and narrower, and inherits the same 4/3 on a phone. */
+/* The shift band is a portrait of a face, not a landscape of hair: any
+   forced wide ratio crops her forehead or chin. Kate, 28 Aug: show more
+   than the chin. So this one band renders its file at natural ratio
+   (the file itself is pre-cropped head-to-shoulders), narrower than the
+   16/7 bands, on every width. */
 .band-photo--tall{ max-width:760px; }
-@media(min-width:560px){
-  .band-photo--tall img{ aspect-ratio:3/2; }
-}
+.band-photo--tall img{ aspect-ratio:8/7; }
 
 /* Lane card photographs: portrait crops, faces above centre so the phone
    crop keeps them in frame. */

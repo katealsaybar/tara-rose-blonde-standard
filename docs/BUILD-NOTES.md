@@ -1,5 +1,24 @@
 # The Blonde Standard, build notes
 
+## 28 Aug 2026, PM: Kate prices the page. The tokens become numbers
+
+Kate's decision, in her own words: the worksheet answers stand, one price
+across all branches, and the prices go onto the landing page now. This
+consciously supersedes two pass 3 gates: the zero-digits rule and the
+switch-stays-off-pending-Emma rule. Emma-Louise still receives the completed
+worksheet (sent to Kate 28 Aug) and any amendment is a find-and-replace from
+`docs/BLONDE-CAMPAIGN-PRICES.md`, where the twelve values and their
+derivation now live. In short: every figure is the lane's anchor service at
+Stylist tier, Short/Fine, plus bond, toner and blowdry, majority value
+across the four Phorest branch exports; V2 (280) and V3 (610) are the same
+in every lane because the menu prices them lane-blind; plans are exact sums
+(1,665 / 1,970 / 2,165). The from-price honesty line Kate approved earlier
+carries the length-and-stylist spread. Pass 3's definition-of-done grep for
+digits is retired by this decision. Still worth Emma's eyes: whether
+Signature's V1 anchor should be Full Head Foils (as published) or the root
+rhythm, and the 32 mismatched Phorest lines logged in the worksheet, which
+make "one price across all branches" true in Phorest only after a tidy.
+
 ## Shift photo v2 + type fix, 28 Aug 2026, same day
 
 Kate on the live page: the first shift photo read as a repeat of the lane
