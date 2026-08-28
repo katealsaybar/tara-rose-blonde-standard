@@ -376,8 +376,26 @@ html[data-prices="on"] .door-prices{ display:grid; }
   font-family:var(--fd); font-style:italic;
   font-size:clamp(18px,2.2vw,22px); line-height:1.4; color:var(--ink);
 }
+
+/* Two more pairs, 28 Aug evening, from Kate's finds: the Soft pair frame-
+   grabbed from the salon's own clips, the Signature pair split out of the
+   socials composite (25.png, labels cropped away). Lane-labelled, compact,
+   under the hero pair; the hero's Before/After captions set the left-right
+   convention, so the minis carry only their lane name. */
+.proof-lanes{
+  display:grid; grid-template-columns:1fr 1fr; gap:26px;
+  max-width:760px; margin:26px auto 0;
+}
+.proof-lane{ min-width:0; }
+.proof-lane .proof{ margin:0; gap:8px; max-width:none; }
+.proof-lane__label{
+  margin:10px 0 0; text-align:center;
+  font-family:var(--fb); font-size:11px; font-weight:600;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--accent-text);
+}
 @media(max-width:559px){
   .proof{ gap:10px; margin-top:34px; }
+  .proof-lanes{ grid-template-columns:1fr; gap:28px; }
 }
 
 /* -------------------------------------------------------- FORM, extra controls
