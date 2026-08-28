@@ -223,6 +223,65 @@ body{ overflow-x:clip; }
   font-family:var(--fb); font-size:15px; font-weight:300; line-height:1.6; color:var(--ink-soft);
 }
 
+/* ------------------------------------------------------------ PRICE LAYER
+   Pass 3, 28 Aug 2026. Twelve empty slots for Emma's pricing worksheet: three
+   lanes, and per lane the three visits plus the plan, which is the arithmetic
+   sum of those visits and never a discounted bundle. The whole layer hangs off
+   ONE switch, the data-prices attribute on <html>, committed as "off". While
+   it is off the block is display:none: out of the render and the accessibility
+   tree, so the page shows exactly what pass 2 shipped. There is no JS toggle,
+   no query-string override and no build step; turning it on is editing that
+   one attribute, and that edit is gated on the completed worksheet coming back
+   and Emma and the pricing team signing the numbers off. Tokens are filled by
+   hand from docs/BLONDE-CAMPAIGN-PRICES.md (gitignored), find-and-replace only.
+   Colours are set explicitly against the dark ground rather than inherited,
+   because this block was never contrast-checked by the shared sheets: labels
+   in the accent, values and lane names white, notes at .82 white, all of which
+   clear WCAG AA on the section's near-black. The plan cell is the same size as
+   the visit cells on purpose, separated by a hairline only: printing it larger
+   makes the row read as a bill, and the first note under the rows carries the
+   plan's argument instead. overflow-wrap:anywhere on the values is what keeps
+   the unreplaced {{...}} tokens from breaking 375. */
+.lane-prices{ display:none; margin:34px auto 0; max-width:980px; }
+html[data-prices="on"] .lane-prices{ display:block; }
+.lp-head{
+  margin:0 0 6px; text-align:center;
+  font-family:var(--fd); font-weight:500; font-size:clamp(18px,2vw,22px);
+  line-height:1.3; color:#fff;
+}
+.lp-row{
+  display:grid; grid-template-columns:minmax(132px,190px) 1fr; align-items:center;
+  gap:0 26px; padding:16px 20px; margin-top:10px;
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.16);
+  border-radius:var(--r-md); min-width:0;
+}
+.lp-lane{
+  margin:0; font-family:var(--fd); font-weight:500;
+  font-size:18px; line-height:1.25; color:#fff;
+}
+.lp-figs{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin:0; }
+.lp-fig{ min-width:0; }
+.lp-fig dt{
+  font-family:var(--fb); font-size:10px; font-weight:700;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--accent);
+}
+.lp-fig dd{
+  margin:6px 0 0; font-family:var(--fb); font-size:15.5px; font-weight:400;
+  line-height:1.45; color:#fff; overflow-wrap:anywhere;
+}
+.lp-fig--plan{ padding-left:14px; border-left:1px solid rgba(255,255,255,.22); }
+.lp-note{
+  margin:20px auto 0; max-width:56ch; text-align:center;
+  font-family:var(--fb); font-size:14.5px; font-weight:400; line-height:1.62;
+  color:rgba(255,255,255,.82);
+}
+.lp-note + .lp-note{ margin-top:10px; }
+@media(max-width:860px){
+  .lp-row{ grid-template-columns:1fr; gap:14px; padding:18px; }
+  .lp-figs{ grid-template-columns:1fr 1fr; }
+  .lp-fig--plan{ padding-left:0; border-left:0; }
+}
+
 /* ----------------------------------------------------------- IN THE CHAIR */
 #chair .timeline .tstep{ padding:24px 16px; }
 

@@ -1,5 +1,113 @@
 # The Blonde Standard, build notes
 
+## Pass 3, 28 Aug 2026: the price layer exists, empty and switched off
+
+Built from Kate's pass 3 brief (gitignored, `docs/BUILD-PROMPT-PASS3.md`).
+Pass 2 stands in full; decision 9 is amended, not reversed. The page still
+ships without a single price on it, and keeps shipping price-free until
+Emma-Louise and the pricing team sign the completed worksheet off.
+
+### The tokens
+
+Twelve, Kate's call of 28 Aug: prices vary by lane, and the plan total ships.
+Four names per lane, three lanes:
+
+`{{PRICE_SOFT_V1_FROM}}` `{{PRICE_SOFT_V2_FROM}}` `{{PRICE_SOFT_V3_FROM}}`
+`{{PRICE_SOFT_PLAN_FROM}}`, then the same four with `SIG` and `TRANS`. V1 is
+the worksheet's Visit 1 Create, V2 is Visit 2 Protect (treatment add-on
+excluded from a from-price), V3 is Visit 3 Top-Up, PLAN is the arithmetic sum
+of that lane's three visits, never discounted. The token-to-number mapping
+lives in `docs/BLONDE-CAMPAIGN-PRICES.md`, gitignored (verified with
+`git check-ignore -v`, caught by the existing `*PRICES*` rule), all values
+blank pending the worksheet. Filling the page is find-and-replace from that
+file, nothing else. Twelve figures is the ceiling: the worksheet's four-length
+by four-stylist grid stays in the chair.
+
+### The switch
+
+`data-prices="off"` on `<html>`, committed as the default. One flag, one
+place; no JS toggle, no query-string override, no build step. The whole layer
+is `display:none` while it is off, so nothing price-shaped reaches the render
+or the accessibility tree, and the off page is identical to pass 2 (the only
+CSS added is new selectors; no existing rule was touched). Flipping it is a
+deliberate edit of that one attribute, gated on the signed-off worksheet.
+
+### The markup
+
+The timeline was left exactly as it is, per the brief's recommended shape: it
+teaches the rhythm and has no lane dimension. The prices sit in a compact
+block directly beneath it, still inside `#rhythm`, nowhere else: three rows,
+one per lane, four figures per row, lane names word for word off the lane
+cards. No fourth row; balayage stays a technique, not a lane. The currency
+label, the word from, and every token live inside the hidden element. The
+plan cell is the same size as the visit cells on purpose, split off by a
+hairline only. Printed larger it reads as the bill at the bottom of a
+receipt; instead the first note under the rows carries the plan's argument,
+the worksheet's own line verbatim: "The plan is the sum of its three visits.
+There is no bundle price."
+
+On a phone the row stacks: lane name on top, figures in a two-by-two grid,
+`overflow-wrap:anywhere` on the values so the literal `{{...}}` strings
+cannot break 375. Answer to the brief's question 3: twelve figures do fit,
+verified at 375 with unreplaced tokens, no horizontal scroll, no overflow.
+
+### The from-price honesty problem (open, flagged not decided)
+
+Per-lane rows narrow it a long way, but *from* still hides the length and
+stylist spread inside each lane. The line carrying it, shipped inside the
+hidden block: "From means the starting figure for that lane. Yours depends on
+your length and your stylist, and is confirmed at your free Confidence
+Mapping before you commit to anything." Whether that line is enough, and its
+final wording, is Emma's and Kate's call before the switch ever flips.
+
+### Brand review, and one naming collision
+
+`brand-voice-checker` reviewed every new sentence in the block, 28 Aug: no
+blocks. One soft finding: **"Visit 3 · Top-Up" (worksheet name) sits in the
+same viewport as "Three · Keep it on track" (locked Lesson 15 name)**, two
+names for one visit. The pass 3 brief makes Emma's worksheet the only naming
+authority for the price lines, so Top-Up ships in the block and the collision
+is logged here instead of resolved: either Tara accepts the worksheet label
+as a naming exception (it can ride with the decision 21 escalation) or the
+three `<dt>`s change to "Keep on Track", a three-line edit, before the switch
+flips. Everything else in the block passed as written.
+
+### Verified, pass 3
+
+Flag off: no AED and no token in the rendered text, block absent from the
+accessibility tree, `scrollWidth` clean at 375 / 768 / 1024 / 1280, no
+console errors. Flag on with literal unreplaced tokens: no overflow at any of
+the four widths, desktop rows render lane column plus four equal figure
+columns, phone stacks per lane. Contrast is set explicitly, not inherited:
+labels `#99F6E4`, values `#fff`, notes `rgba(255,255,255,.82)` on the
+section's near-black, all comfortably past AA. Sweeps: `grep -nE
+'[0-9]{3,4}' index.html` returns only pass 2's pre-existing hits (image
+dimensions, font-file names, phone codes, the WhatsApp number, years); AED
+appears only inside the hidden block; no currency symbol anywhere; no new
+contractions, no emoji, no exclamation marks, no em dashes. The preview pane
+would not composite (same quirk as every pass), so the visual checks were
+measured by geometry; worth one human scroll with the attribute flipped on.
+
+### What did not change
+
+The FAQ cost answer and its byte-matched JSON-LD twin, no Offer or
+PriceSpecification markup anywhere, lane cards and homecare bundles still
+price-free, the Where-it-sits lines untouched, deposit rule, noindex,
+tracking layer, Tara's locked lines, Promise wording, shared design system.
+
+### Open after this pass
+
+The completed pricing worksheet and Emma's four questions in it · the
+from-price honesty line's final wording (above) · the Top-Up vs Keep on
+Track naming collision (above) · **push is blocked: this repo still has no
+remote**, the repo name and slug are the same open item from pass 1, so pass
+3 is committed locally only · everything carried from pass 2 (the four other
+Promise wordings and the guarantee's retirement scope, decision 21, the
+sign-off table, the deposit exemption, the from-price content file, blonde
+proof with consent, the three remaining faces).
+
+---
+
 ## Photography fix, 27 Aug 2026: the Signature card showed a stylist
 
 Kate, on the live draft: the Signature Blonde photograph was **Holly, a

@@ -19,7 +19,7 @@ Thumbs.db
 
 # Internal build brief: quotes a private meeting, and records which stylists
 # are and are not signed off on colour. Lives beside the code, never ships.
-docs/BUILD-PROMPT.md
+docs/BUILD-PROMPT*.md
 
 # The blonde extraction is internal. It never ships, wherever a copy lands.
 TARA_BLONDE_RAW.md
