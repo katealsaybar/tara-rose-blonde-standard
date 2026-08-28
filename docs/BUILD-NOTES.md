@@ -1,5 +1,22 @@
 # The Blonde Standard, build notes
 
+## 28 Aug 2026, later PM: the prices move into the lane cards
+
+Kate, looking at the live page: combine the price rows and the lane cards,
+on the dark ground. So the standalone block under the timeline retires and
+each lane card now carries its own four figures on a small ink-deep panel
+(accent labels, white values, plan behind a hairline, same size as the
+visits), sitting between the Where-it-sits line and the CTA. The price
+appears exactly once, inside the card she has already chosen, and #rhythm
+returns to the pass 2 shape: timeline and prose only. The two notes (no
+bundle price · the from honesty line) ride directly under the cards,
+restyled for the light section. The one switch still rules every
+price-shaped element. This supersedes pass 2/3's "lane cards carry no
+prices" rule, by Kate's instruction. Emma-Louise has seen and loves the
+page (via Kate, 28 Aug); her worksheet pass remains the pricing authority
+for amendments. Verified: three panels, off-switch hides panels and notes
+together, no overflow at 375, no console errors.
+
 ## 28 Aug 2026, PM: Kate prices the page. The tokens become numbers
 
 Kate's decision, in her own words: the worksheet answers stand, one price
