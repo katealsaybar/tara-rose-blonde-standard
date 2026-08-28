@@ -17,6 +17,13 @@ page (via Kate, 28 Aug); her worksheet pass remains the pricing authority
 for amendments. Verified: three panels, off-switch hides panels and notes
 together, no overflow at 375, no console errors.
 
+Third pass, same day: the lanes section itself goes dark and the cards and
+their price panels stay cream (Kate's clarification), and because Emma's
+rule says two dark grounds never sit adjacent, the three-visits section
+steps back to light paper. That amends pass 1's canonical rhythm-on-black,
+by Emma's own rule. Dark now alternates: lanes dark, rhythm light, promise
+dark, faq dark.
+
 ## 28 Aug 2026, PM: Kate prices the page. The tokens become numbers
 
 Kate's decision, in her own words: the worksheet answers stand, one price
