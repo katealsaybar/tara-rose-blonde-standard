@@ -25,6 +25,13 @@ by four-stylist grid stays in the chair.
 
 ### The switch
 
+**Preview state, 28 Aug 2026, Kate's call: the switch is flipped `on` with
+the tokens unreplaced**, so the empty slots are visible on the live page
+while the worksheet is out. The page is `noindex,nofollow` and carries no
+traffic yet, and no number exists anywhere in it. Flip back to `off` (one
+attribute) the day the page is handed to ads, if the numbers are still not
+signed off by then. The paragraph below describes the designed default.
+
 `data-prices="off"` on `<html>`, committed as the default. One flag, one
 place; no JS toggle, no query-string override, no build step. The whole layer
 is `display:none` while it is off, so nothing price-shaped reaches the render
