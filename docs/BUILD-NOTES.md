@@ -13,9 +13,10 @@ camera), matched 4/5 crops as `proof-before.jpg` / `proof-after.jpg`,
 side by side at every width, closing the shift section directly above the
 booking form. The only new copy is the captions Before / After and one
 line: "The same hair, one visit apart." No stylist named on the page, per
-the standing rule, so Ruth's name lives here, not there. Still worth
-holding: written consent for this client's photos has not been sighted,
-only the shoot's purpose implies it; chase before ads point at the page.
+the standing rule, so Ruth's name lives here, not there. **Consent: settled
+by Kate, 28 Aug** — this client's photos are already published across the
+salon's channels, so the posting precedent stands as the release; no
+further paperwork chased for this pair.
 Other finds logged for later: Marish's before/after zip (Mar 2026, sent to
 the web team), and TEGAN and RUTH before/after videos (both staff) plus a
 BRIT MP4 set for ad creative.
