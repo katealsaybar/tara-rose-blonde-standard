@@ -57,8 +57,10 @@ Per-lane rows narrow it a long way, but *from* still hides the length and
 stylist spread inside each lane. The line carrying it, shipped inside the
 hidden block: "From means the starting figure for that lane. Yours depends on
 your length and your stylist, and is confirmed at your free Confidence
-Mapping before you commit to anything." Whether that line is enough, and its
-final wording, is Emma's and Kate's call before the switch ever flips.
+Mapping before you commit to anything." **Kate approved this wording, 28
+Aug.** Emma sees it alongside the completed worksheet before the switch
+flips; whether the line is enough for the Transformation spread stays hers
+to confirm then.
 
 ### Brand review, and one naming collision
 
@@ -97,11 +99,12 @@ tracking layer, Tara's locked lines, Promise wording, shared design system.
 
 ### Open after this pass
 
-The completed pricing worksheet and Emma's four questions in it · the
-from-price honesty line's final wording (above) · the Top-Up vs Keep on
-Track naming collision (above) · **push is blocked: this repo still has no
-remote**, the repo name and slug are the same open item from pass 1, so pass
-3 is committed locally only · everything carried from pass 2 (the four other
+The completed pricing worksheet and Emma's four questions in it · Emma's
+confirmation of the approved honesty line when the worksheet returns (above)
+· the Top-Up vs Keep on Track naming collision (above, Kate or Tara) · the
+repo: **Kate named it 28 Aug, `tara-rose-blonde-standard`**, created and
+pushed the same day, closing pass 1's open item · everything carried from
+pass 2 (the four other
 Promise wordings and the guarantee's retirement scope, decision 21, the
 sign-off table, the deposit exemption, the from-price content file, blonde
 proof with consent, the three remaining faces).
