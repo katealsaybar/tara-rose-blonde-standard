@@ -12,12 +12,19 @@ derivation now live. In short: every figure is the lane's anchor service at
 Stylist tier, Short/Fine, plus bond, toner and blowdry, majority value
 across the four Phorest branch exports; V2 (280) and V3 (610) are the same
 in every lane because the menu prices them lane-blind; plans are exact sums
-(1,665 / 1,970 / 2,165). The from-price honesty line Kate approved earlier
+(1,665 / 1,650 / 2,165). The from-price honesty line Kate approved earlier
 carries the length-and-stylist spread. Pass 3's definition-of-done grep for
-digits is retired by this decision. Still worth Emma's eyes: whether
-Signature's V1 anchor should be Full Head Foils (as published) or the root
-rhythm, and the 32 mismatched Phorest lines logged in the worksheet, which
-make "one price across all branches" true in Phorest only after a tidy.
+digits is retired by this decision.
+
+Two follow-ups Kate settled the same day: **Signature V1 carries both
+anchors** (root colour rhythm or Full Head Foils), so its from is the lower
+of the two, 760, plan 1,650. That puts Signature's from a shade under
+Soft's 775, which is honest (a roots-and-toner create is genuinely smaller
+than partial foils) but worth one glance from Emma for optics. And the
+**32 mismatched Phorest lines are deliberately parked**, Kate's call: the
+campaign will carry its own promo pricing when Emma's worksheet returns, so
+the menu tidy is not a launch gate. The Q4 log in the worksheet stands as
+information, not as a blocker.
 
 ## Shift photo v2 + type fix, 28 Aug 2026, same day
 
