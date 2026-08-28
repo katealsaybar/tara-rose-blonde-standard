@@ -17,6 +17,14 @@ the standing rule, so Ruth's name lives here, not there. **Consent: settled
 by Kate, 28 Aug** — this client's photos are already published across the
 salon's channels, so the posting precedent stands as the release; no
 further paperwork chased for this pair.
+
+Also closed the same evening: **the Top-Up vs Keep on Track naming
+collision, Kate's call: Keep on Track wins.** The three Visit 3 labels
+in the price panels now match the timeline and the locked Maintenance
+Loop stage; Top-Up survives only inside Emma's worksheet as its pricing
+row name. That clears the brand-guardian soft flag from pass 3 without
+needing the decision 21 escalation. And the `noindex` stays on for now,
+Kate's call: removal waits for the official launch.
 Other finds logged for later: Marish's before/after zip (Mar 2026, sent to
 the web team), and TEGAN and RUTH before/after videos (both staff) plus a
 BRIT MP4 set for ad creative.
