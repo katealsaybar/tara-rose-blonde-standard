@@ -77,6 +77,14 @@ body{ overflow-x:clip; }
   .band-photo img{ aspect-ratio:4/3; }
 }
 
+/* The shift band is a portrait of a face, not a landscape of hair: at 16/7
+   the crop takes her forehead and chin, so this one band runs 3/2 on desktop
+   and narrower, and inherits the same 4/3 on a phone. */
+.band-photo--tall{ max-width:760px; }
+@media(min-width:560px){
+  .band-photo--tall img{ aspect-ratio:3/2; }
+}
+
 /* Lane card photographs: portrait crops, faces above centre so the phone
    crop keeps them in frame. */
 .lane-photo{ margin:0 0 20px; }
@@ -326,7 +334,7 @@ html[data-prices="on"] .lane-prices{ display:block; }
 }
 .swap{ min-width:0; text-align:center; padding:8px 6px; }
 .swap__old{
-  margin:0; font-family:var(--fb); font-size:14.5px; font-weight:300;
+  margin:0; font-family:var(--fb); font-size:16.5px; font-weight:300;
   line-height:1.5; color:var(--ink-soft);
 }
 .swap__old::after{

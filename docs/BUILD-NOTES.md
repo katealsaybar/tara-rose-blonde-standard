@@ -1,5 +1,24 @@
 # The Blonde Standard, build notes
 
+## Shift photo v2 + type fix, 28 Aug 2026, same day
+
+Kate on the live page: the first shift photo read as a repeat of the lane
+cards (same Bahrain set, same hair-over-face composition). Replaced from a
+better source she pointed at: **the salon's own UAE shoot in the content
+Drive** (`content.tararose@gmail.com`, BLONDES folder, the `yes-6` select,
+photographer files `BRIT____`). A finished platinum blonde smiling straight
+at the camera: the shift's closing beat in one frame. **Her face was checked
+against all twenty-four female staff portraits in the dashboard repo: no
+match, she is a client, not staff.** The other selects (`yes-2/3/4/7`) also
+checked and clean. New `band-photo--tall` modifier (3/2 on desktop, capped
+at 760px, phone stays 4/3) because a 16/7 crop takes a portrait's forehead
+and chin. Also per Kate: `.swap__old` lifted 14.5px to 16.5px, it read too
+small against the answer lines. That Drive folder plus the BLONDE1-24 set in
+the socials folder is the campaign's real photo pool going forward; the
+Bahrain set is now the fallback, not the source.
+
+---
+
 ## Photography, 28 Aug 2026: the shift section gets its picture
 
 Kate, on the live page: the shift section "looks weak, can we get photos for
