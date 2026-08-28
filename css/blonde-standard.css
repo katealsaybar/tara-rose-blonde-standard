@@ -350,6 +350,36 @@ html[data-prices="on"] .door-prices{ display:grid; }
   .swaps{ grid-template-columns:1fr; gap:30px; max-width:520px; }
 }
 
+/* ------------------------------------------------------------------ THE PROOF
+   28 Aug 2026. One real client of the salon's, before and after her create
+   visit, from the socials team's purpose-shot pair set in the content Drive
+   (Before 1 / After 1). Kate confirmed her: a client, not staff. The pair
+   closes the shift section, directly above the booking form, so the last
+   thing on screen before the form is the change itself. Side by side at
+   every width: splitting before from after would break the argument. */
+.proof{
+  display:grid; grid-template-columns:1fr 1fr; gap:14px;
+  max-width:760px; margin:44px auto 0;
+}
+.proof__half{ margin:0; min-width:0; }
+.proof__half img{
+  width:100%; height:auto; aspect-ratio:4/5; object-fit:cover;
+  display:block; border-radius:var(--r-md); background:var(--stone-soft);
+}
+.proof__half figcaption{
+  margin-top:10px; text-align:center;
+  font-family:var(--fb); font-size:11px; font-weight:600;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--accent-text);
+}
+.proof__line{
+  margin:22px auto 0; max-width:52ch; text-align:center;
+  font-family:var(--fd); font-style:italic;
+  font-size:clamp(18px,2.2vw,22px); line-height:1.4; color:var(--ink);
+}
+@media(max-width:559px){
+  .proof{ gap:10px; margin-top:34px; }
+}
+
 /* -------------------------------------------------------- FORM, extra controls
    trs-blocks styles .field input only. This form also uses selects and a
    textarea. 16px is also what stops iOS zooming on focus. */
