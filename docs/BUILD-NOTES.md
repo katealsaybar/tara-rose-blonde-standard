@@ -65,12 +65,20 @@ Kate recognised the `IMG_0130` woman instantly: **she is a stylist**, so the fra
 fails the Holly rule (clients, never staff or models, on campaign imagery) and the
 Signature card went back to its previous photograph while Kate checks who in the
 candidate pool is actually a client. Her second ruling in the same breath: **lane
-models must face the camera** — though the Transformation back-view is exempt and
-stays, on Jhoana's word relayed by Kate the same hour. Lesson for every future
-photo pass: a frame cannot ship on look alone — the woman in it must be verified as a
-client by someone who knows the faces, before the commit. Candidates on the table for
-Kate: `yes-6` (icy, smiling, facing camera), `BLONDE24` (direct gaze), `IMG_0131`
-(butterfly necklace); none confirmed as clients yet.
+models must face the camera**. Lesson for every future photo pass: a frame cannot
+ship on look alone — the woman in it must be verified as a client by someone who
+knows the faces, before the commit.
+
+**Settled within the hour, both cards:**
+
+- **Signature is `BLONDE24`** (the content account's blonde set, 2304x3456), Kate's
+  pick from the three-frame shortlist: direct gaze at the camera, bright blonde from
+  the roots through the lengths. Shipped 933x1400 at 138KB, position 50% 22%, both
+  card ratios verified as composed crops.
+- **Transformation reverts to its original photograph** (BLONDE4, the high-lift
+  side profile). Jhoana's word relayed by Kate: it is fine as it is, do not change
+  it — which withdraws the meeting's too-subtle mapping for this page and retires
+  the IMG_0120 back-view after less than an hour live.
 
 ## 28 Aug 2026, evening: the page gets its proof
 
