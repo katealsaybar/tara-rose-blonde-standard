@@ -17,10 +17,28 @@ never discounted, and no visible copy moved: the Visit 3 line ("tone and shine
 refreshed, re-protected") never named the anchor service. The internal mapping in
 `docs/BLONDE-CAMPAIGN-PRICES.md` (gitignored) carries the amended derivation.
 
-Still open from that meeting, not acted on here: the deferral question (the meeting
-put the full multi-visit blonde programme at January or summer, with Jhoana's
-launch-now-as-gateway option on the table), and the promo-deck image swaps, which
-live in the campaign deck rather than this page.
+**The deferral question closed the same day, Kate's call, 31 Aug:** the programme
+runs in month-long batches. This launch runs now and closes at the end of October;
+the next batch opens in January and another in June (summer), each one whole month.
+That takes Jhoana's launch-now-gateway shape rather than a pure deferral. Nothing
+about the close date is written into the page yet — urgency copy is a separate,
+deliberate decision, and the page still carries no close-date language.
+
+**The Soft Blonde lane photo is replaced, same day.** Kate's call: the lane is
+face-framing blonde only, and the shipped photo (a subtle all-over bronde lob) read
+wider than the lane it sells — the same fault the meeting flagged on the promo deck's
+Soft image. The estate's three photo accounts (content, marish, tara) were searched;
+the replacement is `BLONDE19.png` from Tara's `BLONDES` folder (tara@, Jul 2026,
+2304x3456): a visibly brighter money piece framing the face, natural depth at the
+root, soft lengths — the lane's own definition in one frame. Runner-up, logged in
+case Kate prefers a camera-facing frame: `IMG_0131` from the same folder. Shipped as
+933x1400 JPEG at 154KB, the siblings' budget; both rendered ratios (4/5 desktop,
+1/1 phone) verified as composed crops at the existing `50% 22%` position, full head
+in frame in both. Alt text rewritten to describe the new photograph.
+
+Still open from that meeting: the promo-deck image swaps (balayage to roots-to-tip
+highlight, a true high-lift for Maximum Brightness) live in the campaign deck rather
+than this page.
 
 ## 28 Aug 2026, evening: the page gets its proof
 
