@@ -36,9 +36,29 @@ case Kate prefers a camera-facing frame: `IMG_0131` from the same folder. Shippe
 1/1 phone) verified as composed crops at the existing `50% 22%` position, full head
 in frame in both. Alt text rewritten to describe the new photograph.
 
-Still open from that meeting: the promo-deck image swaps (balayage to roots-to-tip
-highlight, a true high-lift for Maximum Brightness) live in the campaign deck rather
-than this page.
+**The other two lane photos followed, same day — Kate mapped the meeting's image
+critique onto this page's lanes.** The meeting's three image findings were: a balayage
+frame advertising a from-the-roots service (Jhoana's fix: a full-head highlight where
+the colour starts at the roots), a Maximum Brightness image too subtle for a
+full-brightness result, and the Soft image correctly showing a face frame. Kate's
+ruling: Maximum Brightness maps to the Transformation lane here.
+
+- **Signature** now carries `IMG_0130` (tara@ BLONDES): even golden blonde from the
+  roots through the lengths, camera-facing, salon backdrop — the full-head-highlight
+  frame the meeting asked for. The socials `BLONDE5/10/15` set was rejected as exactly
+  the balayage-with-shadowed-root look the meeting rejected; the platinum frames
+  (`BLONDE22/24`) were rejected for colliding with the Transformation card. Shipped
+  933x1400 at 163KB, position moved 30 to 25 percent, both ratios verified.
+- **Transformation** now carries `IMG_0120` (tara@ BLONDES): a full sheet of glossy
+  high-lift platinum from behind, against the salon's marble reception. The old frame
+  (BLONDE4, soft-lit, eyes down) read as the too-subtle fault. **Deliberate pattern
+  break, flagged for Kate:** this is the one lane card without a face — the card shows
+  the result itself, which is the tier's promise. Runner-up if she wants a face:
+  `IMG_0129`, brighter styling but an off-brand graffiti backdrop. Shipped native
+  1080x1350 (its exact 4/5 card ratio) at 247KB; width/height attributes moved with it.
+
+All three lane photographs are now Tara's own July 2026 `BLONDES` folder, one woman
+per lane, no reuse across lanes.
 
 ## 28 Aug 2026, evening: the page gets its proof
 
