@@ -60,6 +60,18 @@ ruling: Maximum Brightness maps to the Transformation lane here.
 All three lane photographs are now Tara's own July 2026 `BLONDES` folder, one woman
 per lane, no reuse across lanes.
 
+**Reverted within the hour, and the rule that caught it is worth writing down.**
+Kate recognised the `IMG_0130` woman instantly: **she is a stylist**, so the frame
+fails the Holly rule (clients, never staff or models, on campaign imagery) and the
+Signature card went back to its previous photograph while Kate checks who in the
+candidate pool is actually a client. Her second ruling in the same breath: **lane
+models must face the camera** — though the Transformation back-view is exempt and
+stays, on Jhoana's word relayed by Kate the same hour. Lesson for every future
+photo pass: a frame cannot ship on look alone — the woman in it must be verified as a
+client by someone who knows the faces, before the commit. Candidates on the table for
+Kate: `yes-6` (icy, smiling, facing camera), `BLONDE24` (direct gaze), `IMG_0131`
+(butterfly necklace); none confirmed as clients yet.
+
 ## 28 Aug 2026, evening: the page gets its proof
 
 The biggest open item since pass 1 closes. Kate asked for a search of the
