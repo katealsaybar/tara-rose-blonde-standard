@@ -1,5 +1,27 @@
 # The Blonde Standard, build notes
 
+## 31 Aug 2026: the Q4 pricing meeting recomposes Keep on Track
+
+The 31 Aug ops meeting (Jumera, Jhoana, Kate — the Q4 campaigns Zoom) reviewed the
+blonde programme's pricing and found the Visit 3 figure reading as a 25-to-30-percent
+discount against the visit's real content, outside the meeting's 20-to-25 guardrail.
+The cause was composition, not arithmetic: the page's 610 was built on root colour
+330 + toner 140 + blowdry 140, while the meeting set Visit 3 for the Signature and
+Transformation lanes as **face frame + toner + blow-dry, 450 + 195 + 160 = 805**.
+Kate's call: the page follows the meeting's numbers.
+
+So Signature and Transformation Keep on Track move 610 to 805, and their plans
+re-sum to 1,845 and 2,360. Soft keeps its root touch-up 610 and its 1,665 plan,
+per Kate's instruction naming only the two lanes. The plans stay arithmetic sums,
+never discounted, and no visible copy moved: the Visit 3 line ("tone and shine
+refreshed, re-protected") never named the anchor service. The internal mapping in
+`docs/BLONDE-CAMPAIGN-PRICES.md` (gitignored) carries the amended derivation.
+
+Still open from that meeting, not acted on here: the deferral question (the meeting
+put the full multi-visit blonde programme at January or summer, with Jhoana's
+launch-now-as-gateway option on the table), and the promo-deck image swaps, which
+live in the campaign deck rather than this page.
+
 ## 28 Aug 2026, evening: the page gets its proof
 
 The biggest open item since pass 1 closes. Kate asked for a search of the
