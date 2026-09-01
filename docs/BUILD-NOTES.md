@@ -1,5 +1,26 @@
 # The Blonde Standard, build notes
 
+## 1 Sep 2026 PM: the website becomes the component base
+
+Kate's ruling on the component flag from the 31 Aug entry: base on the official
+website. The site prints the Stylist blow-dry at 160 for Short/Fine — the same 160
+Jumera and Jhoana quote in meetings — against the 140 the 28 Aug Phorest-majority
+derivation used. So the fixed components move once, everywhere: the Create finish is
+450 (bond 150 + Classic Toner 140 + blow-dry 160), the Protect visit is 300, and
+Soft's Keep on Track rebuilds to 630 on the same parts. The anchors stand (the site's
+from-arrays match the Phorest blonde menu row for row), and the Sig/Trans Keep on
+Track stays the meeting's own 805 sum. New lane figures: Soft 795 / 300 / 630, plan
+1,725 · Signature 780 / 300 / 805, plan 1,885 · Transformation 1,295 / 300 / 805,
+plan 2,400. Twelve figures moved on the page and in the mapping doc; the plans remain
+arithmetic sums, never discounted.
+
+**Also settled by Kate the same day, for the campaign rather than the page:**
+Maximum Brightness stays a promo-deck question (recommendation recorded with Kate:
+fold it into Transformation rather than price a fourth tier), and the batch calendar
+is on the internal cheat sheet: this run closes end of October, the next batches open
+January and June, one month each.
+
+
 ## 31 Aug 2026: the Q4 pricing meeting recomposes Keep on Track
 
 The 31 Aug ops meeting (Jumera, Jhoana, Kate — the Q4 campaigns Zoom) reviewed the
