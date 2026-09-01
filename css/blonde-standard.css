@@ -91,6 +91,7 @@ body{ overflow-x:clip; }
 .lane-photo img{
   width:100%; height:auto; aspect-ratio:4/5; object-fit:cover;
   display:block; border-radius:var(--r-sm); background:var(--stone-soft);
+  border:1px solid var(--hair);
 }
 @media(max-width:559px){
   .lane-photo img{ aspect-ratio:1/1; }
